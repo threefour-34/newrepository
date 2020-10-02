@@ -1,0 +1,15 @@
+.backgroud_image {
+    width: 1500px;
+    height: 200px;
+    background-image: url(../material/images/backgroud_image9.jpg);
+    background-repeat: no-repeat;
+    background-position: center top;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}

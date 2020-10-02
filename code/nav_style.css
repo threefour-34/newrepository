@@ -1,0 +1,16 @@
+.nav {
+    float: left;
+    margin-left: 3px;
+    margin-top: 5px;
+}
+
+.nav ul li {
+    float: left;
+}
+
+.nav ul li a {
+    display: block;
+    padding: 0 6px;
+    font: 15px "Microsoft yahei";
+    color: rgb(255, 255, 255);
+}

@@ -1,5 +1,22 @@
 .search {
     float: left;
-    margin-top: 20px;
-    margin-left: 200px;
+    height: 35px;
+    width: 450px;
+    background-color: tomato;
+    margin-top: 13px;
+    margin-left: 100px;
+}
+.search input {
+  float: left;
+  width: 380px;
+  height: 33px;
+  border: 1px;
+  border-color: rgb(250, 114, 90);
+}
+.search button {
+ width: 70px;
+ height: 33px;
+ float: left;
+ background-color: rgb(252, 137, 117);
+ border: 0;
 }

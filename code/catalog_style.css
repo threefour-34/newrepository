@@ -1,0 +1,55 @@
+.catalog_round ul {
+    float: left;
+    margin-left: 120px;
+}
+
+.catalog_round ul li {
+    float: left;
+}
+
+.catalog_round ul li a {
+    display: block;
+    padding: 0 6px;
+    font: 20px "Microsoft yahei";
+    color: rgb(63, 0, 0);
+}
+
+.catalog_detail {
+    float: left;
+}
+
+.catalog_detail {
+    margin-top: 0;
+}
+
+.catalog_detail ul li {
+    float: left;
+    margin-left: 20px;
+}
+
+.catalog_detail ul li a {
+    display: block;
+    padding: 5px 6px;
+    font: 13px "Microsoft yahei";
+    color: rgb(107, 1, 1);
+}
+
+.catalog_plus {
+    float: left;
+}
+
+.catalog_plus ul {
+    margin-top: 1px;
+}
+
+.catalog_plus ul li {
+    float: left;
+    margin-left: 20px;
+}
+
+.catalog_plus ul li a {
+    display: block;
+    padding: 5px 6px;
+    font: 19px "Microsoft yahei";
+    color: rgb(107, 1, 1);
+}

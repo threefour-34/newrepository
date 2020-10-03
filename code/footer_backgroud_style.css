@@ -1,17 +1,42 @@
 .footer_backgroud {
     height: 100px;
-    background-color: rgb(241, 241, 241);
+    background-color: rgb(255, 215, 215);
     background-position: center bottom;
 }
-.bilibili ul li {
-    width: 20px;
-    height: 10px;
-}
-.chuansongmen ul li {
-    width: 20px;
-    height: 10px;
+
+.Bilibili ul {
+    float: left;
+    width: 300px;
+    height: 70px;
+    background-color: rgb(212, 170, 170);
+    margin-top: 15px;
+    margin-left: 120px;
 }
 
-.bottom_decoration {
-    background-color:rgb(252, 253, 241) ;
+.Bilibili ul li a {
+    color: brown;
+    font-size: 10px;
 }
+
+.chuansongmen ul {
+    float: left;
+    width: 300px;
+    height: 70px;
+    background-color: rgb(212, 170, 170);
+    margin-top: 15px;
+    margin-left: 25px;
+}
+
+.chuansongmen ul li a {
+    color: brown;
+    font-size: 10px;
+}
+
+
+/* .bottom_decoration {
+    width: 1600px;
+    height: 100px;
+    background-color: rgb(252, 253, 241);
+    background-image: url(../material/images/bilibili.jpg);
+    background-repeat: repeat-x;
+} */

@@ -1,6 +1,6 @@
 .personal_center {
-    float: right;
-    margin-right: 3px;
+    float: left;
+    margin-left: 33px;
     margin-top: 5px;
 }
 
@@ -13,4 +13,10 @@
     padding: 0 6px;
     font: 15px "Microsoft yahei";
     color: rgb(255, 255, 255);
+}
+
+.contribute {
+    width: 50px;
+    height: 30px;
+    background-color: rgb(255, 125, 147);
 }

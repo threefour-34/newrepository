@@ -1,0 +1,31 @@
+.body {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: nowrap;
+    flex-shrink: 1;
+    background-color: rgb(187, 236, 255);
+    margin-left: 80px;
+    margin-right: 80px;
+}
+
+.personal_page {
+    width: 360px;
+    height: 250px;
+    background-image: url(../../material/images/index2_images/bilibili_tv.jpg);
+    /* margin-left: 50px; */
+}
+
+.content {
+    width: 600px;
+    height: 800px;
+    background-image: url(../../material/images/index2_images/bilibili_tv.jpg);
+    margin-left: 20px;
+}
+
+.right_board {
+    width: 360px;
+    height: 600px;
+    background-image: url(../../material/images/index2_images/bilibili_tv.jpg);
+    margin-left: 20px;
+}

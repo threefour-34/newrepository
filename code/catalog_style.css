@@ -1,6 +1,6 @@
 .catalog_round ul {
     float: left;
-    margin-left: 120px;
+    margin-left: 40px;
 }
 
 .catalog_round ul li {
@@ -29,7 +29,7 @@
 
 .catalog_detail ul li a {
     display: block;
-    padding: 5px 6px;
+    /* padding: 5px 6px; */
     font: 13px "Microsoft yahei";
     color: rgb(107, 1, 1);
 }
@@ -52,4 +52,11 @@
     padding: 5px 6px;
     font: 19px "Microsoft yahei";
     color: rgb(107, 1, 1);
+}
+
+.catalog_detail ul li a span {
+    font-size: 5px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(255, 101, 139);
+    border-radius: 6px;
 }

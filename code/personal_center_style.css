@@ -6,6 +6,7 @@
 
 .personal_center ul li {
     float: left;
+    border-radius: 20px;
 }
 
 .personal_center ul li a {

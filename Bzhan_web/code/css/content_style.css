@@ -1,0 +1,57 @@
+.content1 {
+    float: left;
+    width: 550px;
+    height: 300px;
+    /* margin-left: 180px; */
+    margin-top: 10px;
+}
+
+.content0 {
+    width: 1260px;
+    height: 150px;
+    position: center;
+}
+
+.content1 a:hover {
+    box-shadow: 5px -10px 50px 20px rgb(255, 205, 205);
+}
+
+.content2 a:hover {
+    box-shadow: 5px -10px 50px 20px rgb(255, 205, 205);
+}
+
+.content2 {
+    width: 200px;
+    height: 130px;
+    float: left;
+    padding: 15px;
+    margin-left: 2px;
+    margin-top: 2px;
+}
+
+.column {
+    float: left;
+    margin-left: 200px;
+}
+
+.content_2 ul {
+    float: left;
+    margin-left: 1px;
+}
+
+.fixed {
+    width: 80px;
+    height: 31em;
+    background-color: rgb(252, 193, 193);
+    border-radius: 120px;
+    position: fixed;
+    top: 270px;
+    right: 200px;
+    /* border-color: rgb(250, 114, 90); */
+}
+
+.fixed ul li a {
+    text-align: left;
+    color: rgb(107, 1, 1);
+    font-size: 10px;
+}

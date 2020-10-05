@@ -1,0 +1,32 @@
+.catalog a {
+    text-decoration: none;
+    color: rgb(107, 1, 1);
+    font-size: 0.1em;
+}
+
+.catalog0 {
+    /* margin-left: 0; */
+    height: 30%;
+    width: 120%;
+    /* border-width: 10%; */
+    border-color: rgb(247, 247, 247);
+    border-style: solid;
+}
+
+.catalog {
+    float: left;
+    width: 38%;
+}
+
+.personal_center {
+    margin-top: 1.5%;
+    margin-left: 0;
+}
+
+.tougao {
+    width: 10%;
+    height: 30%;
+    background-color: pink;
+    border-radius: 30%;
+    text-align: center;
+}

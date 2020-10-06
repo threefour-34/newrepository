@@ -1,31 +1,45 @@
 .catalog a {
     text-decoration: none;
-    color: rgb(107, 1, 1);
-    font-size: 0.1em;
+    color: rgb(56, 1, 1);
 }
 
 .catalog0 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: nowrap;
+    flex-shrink: 1;
+    align-items: flex-start;
+    background-image: url(../../images/bachground.jpg);
+    background-size: auto;
     /* margin-left: 0; */
-    height: 30%;
-    width: 120%;
+    height: 120px;
+    width: 1600px;
     /* border-width: 10%; */
     border-color: rgb(247, 247, 247);
     border-style: solid;
 }
 
 .catalog {
-    float: left;
-    width: 38%;
+    /* float: left; */
+    width: 500px;
+    margin-left: 2%;
+}
+
+.index {
+    width: 800px;
+    margin-top: 0;
+    margin-left: 0;
 }
 
 .personal_center {
-    margin-top: 1.5%;
+    margin-top: 0;
     margin-left: 0;
 }
 
 .tougao {
-    width: 10%;
-    height: 30%;
+    width: 50px;
+    height: 40px;
     background-color: pink;
     border-radius: 30%;
     text-align: center;

@@ -1,7 +1,7 @@
 .personal_center {
     float: left;
     margin-left: 33px;
-    margin-top: 5px;
+    margin-top: 9px;
 }
 
 .personal_center ul li {
@@ -12,12 +12,12 @@
 .personal_center ul li a {
     display: block;
     padding: 0 6px;
-    font: 15px "Microsoft yahei";
+    font: 20px "Microsoft yahei";
     color: rgb(255, 255, 255);
 }
 
 .contribute {
-    width: 50px;
+    width: 60px;
     height: 30px;
     background-color: rgb(255, 125, 147);
 }

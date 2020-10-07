@@ -1,7 +1,12 @@
 .nav {
-    float: left;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-direction: row;
+    justify-content: space-around;
     margin-left: 3px;
-    margin-top: 5px;
+    margin-top: 9px;
 }
 
 .nav ul li {
@@ -11,6 +16,6 @@
 .nav ul li a {
     display: block;
     padding: 0 6px;
-    font: 15px "Microsoft yahei";
+    font: 20px "Microsoft yahei";
     color: rgb(255, 255, 255);
 }

@@ -1,3 +1,17 @@
+.content {
+    width: 1600px;
+    margin-left: 160px;
+    display: flex;
+    flex-direction: row-reverse;
+    /* justify-content: space-around; */
+    flex-wrap: nowrap;
+    flex-shrink: 1;
+}
+
+.real_content {
+    margin-left: 100px;
+}
+
 .content1 {
     float: left;
     width: 550px;
@@ -10,6 +24,7 @@
     width: 1260px;
     height: 150px;
     position: center;
+    margin-right: 100px;
 }
 
 .content1 a:hover {
@@ -40,18 +55,29 @@
 }
 
 .fixed {
-    width: 80px;
-    height: 31em;
-    background-color: rgb(252, 193, 193);
+    width: 75px;
+    height: 30em;
+    background-color: rgb(248, 212, 212);
     border-radius: 120px;
-    position: fixed;
-    top: 270px;
-    right: 200px;
+    /* position: fixed; */
+    margin-top: 80px;
+    margin-left: 100px;
+    margin-right: 150px;
     /* border-color: rgb(250, 114, 90); */
 }
 
+.fixed ul {
+    width: 75px;
+    margin: 0;
+    padding: 0;
+    margin-top: 10px;
+}
+
+.fixed ul li {
+    text-align: center;
+}
+
 .fixed ul li a {
-    text-align: left;
     color: rgb(107, 1, 1);
-    font-size: 10px;
+    font-size: 8px;
 }

@@ -1,4 +1,10 @@
 .backgroud_image {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-direction: row;
+    justify-content: space-around;
     width: 1800px;
     height: 200px;
     background-image: url(../../images/backgroud_image9.jpg);

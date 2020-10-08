@@ -1,33 +1,33 @@
 .search {
-    float: left;
-    height: 35px;
-    width: 455px;
-    background-color: tomato;
-    margin-top: 13px;
-    margin-left: 100px;
+  float: left;
+  height: 20px;
+  width: 210px;
+  background-color: tomato;
+  margin-top: 23px;
+  margin-left: 0px;
 }
 
 .search input {
-    float: left;
-    width: 380px;
-    height: 33px;
-    border: 1px;
-    border-color: rgb(250, 114, 90);
+  float: left;
+  width: 160px;
+  height: 20px;
+  border: 1px;
+  border-color: rgb(250, 114, 90);
 }
 
 .search button {
-    width: 70px;
-    height: 35px;
-    float: left;
-    background-color: rgb(252, 137, 117);
-    border: 0;
+  width: 45px;
+  height: 20px;
+  float: left;
+  background-color: rgb(252, 137, 117);
+  border: 0;
 }
 
 .search button p {
-    float: top left;
-    font-family: 'Courier New', Courier, monospace;
-    font-weight: 700;
-    font-size: 20px;
-    color: rgb(248, 205, 205);
-    margin-top: 8px;
+  float: top left;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: 700;
+  font: 1px;
+  color: rgb(248, 205, 205);
+  margin-top: 2px;
 }

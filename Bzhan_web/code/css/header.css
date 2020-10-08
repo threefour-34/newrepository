@@ -1,46 +1,46 @@
 .catalog a {
-    text-decoration: none;
-    color: rgb(56, 1, 1);
+  text-decoration: none;
+  color: rgb(20, 0, 0);
 }
 
 .catalog0 {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    flex-wrap: nowrap;
-    flex-shrink: 1;
-    align-items: flex-start;
-    background-image: url(../../images/bachground.jpg);
-    background-size: auto;
-    /* margin-left: 0; */
-    height: 120px;
-    width: 1600px;
-    /* border-width: 10%; */
-    border-color: rgb(247, 247, 247);
-    border-style: solid;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: nowrap;
+  flex-shrink: 1;
+  align-items: flex-start;
+  background-image: url(../../images/bachground.jpg);
+  background-size: auto;
+  /* margin-left: 0; */
+  height: 120px;
+  width: 1250px;
+  /* border-width: 10%; */
+  border-color: rgb(247, 247, 247);
+  border-style: solid;
 }
 
 .catalog {
-    /* float: left; */
-    width: 500px;
-    margin-left: 2%;
+  /* float: left; */
+  width: 500px;
+  margin-left: 0;
 }
 
 .index {
-    width: 800px;
-    margin-top: 0;
-    margin-left: 0;
+  width: 700px;
+  margin-top: 0;
+  margin-left: 0;
 }
 
 .personal_center {
-    margin-top: 0.5%;
-    margin-left: 0;
+  margin-top: 0.5%;
+  margin-left: 0;
 }
 
 .tougao {
-    width: 50px;
-    height: 40px;
-    background-color: pink;
-    border-radius: 30%;
-    text-align: center;
+  width: 43px;
+  height: 36px;
+  background-color: pink;
+  border-radius: 30%;
+  text-align: center;
 }

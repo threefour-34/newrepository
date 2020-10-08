@@ -1,83 +1,86 @@
 .content {
-    width: 1600px;
-    margin-left: 160px;
-    display: flex;
-    flex-direction: row-reverse;
-    /* justify-content: space-around; */
-    flex-wrap: nowrap;
-    flex-shrink: 1;
+  width: 1255px;
+  margin-left: 230px;
+  display: flex;
+  justify-content: space-around; 
+  flex-direction: row-reverse;
+  /* justify-content: space-around; */
+  flex-wrap: nowrap;
+  flex-shrink: 1;
 }
 
 .real_content {
-    margin-left: 100px;
+  width: 1400px;
+  margin-left: -750px;
 }
 
 .content1 {
-    float: left;
-    width: 550px;
-    height: 300px;
-    /* margin-left: 180px; */
-    margin-top: 10px;
+  float: left;
+  width: 550px;
+  height: 300px;
+  /* margin-left: 180px; */
+  margin-top: 10px;
 }
 
 .content0 {
-    width: 1260px;
-    height: 150px;
-    position: center;
-    margin-right: 100px;
+  width: 1260px;
+  height: 150px;
+  position: center;
+  margin-right: 100px;
 }
 
 .content1 a:hover {
-    box-shadow: 5px -10px 50px 20px rgb(255, 205, 205);
+  box-shadow: 5px -10px 50px 20px rgb(255, 205, 205);
 }
 
 .content2 a:hover {
-    box-shadow: 5px -10px 50px 20px rgb(255, 205, 205);
+  box-shadow: 5px -10px 50px 20px rgb(255, 205, 205);
 }
 
 .content2 {
-    width: 200px;
-    height: 130px;
-    float: left;
-    padding: 15px;
-    margin-left: 2px;
-    margin-top: 2px;
+  width: 200px;
+  height: 130px;
+  float: left;
+  padding: 15px;
+  margin-left: 2px;
+  margin-top: 2px;
 }
 
 .column {
-    float: left;
-    margin-left: 200px;
+  float: left;
+  margin-left: 200px;
 }
 
 .content_2 ul {
-    float: left;
-    margin-left: 1px;
+  float: left;
+  margin-left: 1px;
 }
 
-.fixed {
-    width: 75px;
-    height: 30em;
-    background-color: rgb(248, 212, 212);
-    border-radius: 120px;
-    /* position: fixed; */
-    margin-top: 80px;
-    margin-left: 100px;
-    margin-right: 150px;
-    /* border-color: rgb(250, 114, 90); */
+ .fixed {
+  display: flex;
+  background-color: rgb(248, 212, 212);
+  border-radius: 120px;
+  width: 40px;
+  height:30em;
+  /* float: left; */
+  padding:15px;
+  margin-right: -70px;
+  margin-left: -850px; 
+  margin-top: 50px;
 }
 
 .fixed ul {
-    width: 75px;
-    margin: 0;
-    padding: 0;
-    margin-top: 10px;
+  width: 75px;
+  margin: 0;
+  padding: 0;
+  margin-top: 10px;
 }
 
 .fixed ul li {
-    text-align: center;
+  text-align: center;
 }
 
 .fixed ul li a {
-    color: rgb(107, 1, 1);
-    font-size: 8px;
-}
+  color: rgb(107, 1, 1);
+  font-size: 8px;
+} 

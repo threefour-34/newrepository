@@ -1,21 +1,20 @@
 .backgroud_image {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    justify-content: space-around;
-    flex-direction: row;
-    justify-content: space-around;
-    width: 1800px;
-    height: 200px;
-    background-image: url(../../images/backgroud_image9.jpg);
-    background-repeat: no-repeat;
-    background-position: center top;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 1255px;
+  height: 120px;
+  background-image: url(../../images/backgroud_image9.jpg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: center top;
 }
 
 li {
-    list-style: none;
+  list-style: none;
 }
 
 a {
-    text-decoration: none;
+  text-decoration: none;
 }
